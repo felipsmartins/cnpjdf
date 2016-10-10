@@ -8,7 +8,7 @@ class CNPJDF{
 		return file_get_contents("http://publica.agencianet.fazenda.df.gov.br/publica/ImprimirDIF.asp?CFDF=$cnpj");
 	}
 
-	static function consulta($cnpj = '24504336000150'){
+	static function consulta($cnpj){
 		$doc = new DOMDocument();
 		// @$doc->loadHTML(file_get_contents(__DIR__.'/test.html'));
 		@$doc->loadHTML(self::rawData($cnpj));

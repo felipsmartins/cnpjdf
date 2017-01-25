@@ -26,4 +26,4 @@ print_r(CNPJDF::consulta('00001172001402'));
  */
 ```
 
-Aceito doações. Tô f*dido da vida.
+Aceito doações. Tô f*dido da vida!
